@@ -1,8 +1,8 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
-import {HomeComponent} from '@itt-components/home';
-import {TodoComponent} from '@itt-components/todo';
-import {NavigationToolbarComponent} from "@itt-components/navigation-toolbar";
+import {HomeComponent} from '@components/home';
+import {TodoComponent} from '@components/todo';
+import {NavigationToolbarComponent} from "@components/navigation-toolbar";
 
 const routes: Routes = [
     {

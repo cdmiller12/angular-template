@@ -8,7 +8,7 @@ import {MatSelectModule} from "@angular/material/select";
 import {CommonModule} from "@angular/common";
 import {MatAutocompleteModule} from "@angular/material/autocomplete";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
-import {NavigationToolbarModule} from "@itt-components/navigation-toolbar";
+import {NavigationToolbarModule} from "@components/navigation-toolbar";
 
 
 @NgModule({

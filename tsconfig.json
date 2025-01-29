@@ -10,19 +10,19 @@
       "noFallthroughCasesInSwitch": true,
       "sourceMap": true,
       "paths": {
-          "@itt-components/home": [
+          "@components/home": [
               "libs/components/home/src/public-api.ts"
           ],
-          "@itt-components/todo": [
+          "@components/todo": [
               "libs/components/todo/src/public-api.ts"
           ],
-          "@itt-components/multi-select": [
+          "@components/multi-select": [
               "libs/components/multi-select/src/public-api.ts"
           ],
-          "@itt-components/text-field": [
+          "@components/text-field": [
               "libs/components/text-field/src/public-api.ts"
           ],
-          "@itt-components/navigation-toolbar": [
+          "@components/navigation-toolbar": [
               "libs/components/navigation-toolbar/src/public-api.ts"
           ],
           "home": [

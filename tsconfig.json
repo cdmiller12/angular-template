@@ -1,0 +1,70 @@
+/* To learn more about this file see: https://angular.io/config/tsconfig. */
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+      "baseUrl": "./",
+      "outDir": "./dist/out-tsc",
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "sourceMap": true,
+      "paths": {
+          "@itt-components/home": [
+              "libs/components/home/src/public-api.ts"
+          ],
+          "@itt-components/todo": [
+              "libs/components/todo/src/public-api.ts"
+          ],
+          "@itt-components/multi-select": [
+              "libs/components/multi-select/src/public-api.ts"
+          ],
+          "@itt-components/text-field": [
+              "libs/components/text-field/src/public-api.ts"
+          ],
+          "@itt-components/navigation-toolbar": [
+              "libs/components/navigation-toolbar/src/public-api.ts"
+          ],
+          "home": [
+              "dist/home/home",
+              "dist/home"
+          ],
+          "libs": [
+              "dist/libs/libs",
+              "dist/libs"
+          ],
+          "multi-select": [
+              "dist/multi-select"
+          ],
+          "navigation-toolbar": [
+            "dist/navigation-toolbar/navigation-toolbar",
+            "dist/navigation-toolbar"
+          ],
+          "text-field": [
+            "dist/text-field/text-field",
+            "dist/text-field"
+          ],
+          "todo": [
+              "dist/todo/todo",
+              "dist/todo"
+          ]
+      },
+      "declaration": false,
+      "downlevelIteration": true,
+      "experimentalDecorators": true,
+      "moduleResolution": "node",
+      "importHelpers": true,
+      "target": "es2020",
+      "module": "es2020",
+      "lib": [
+          "es2018",
+          "dom"
+      ]
+  },
+  "angularCompilerOptions": {
+      "enableI18nLegacyMessageIdFormat": false,
+      "strictInjectionParameters": true,
+      "strictInputAccessModifiers": true,
+      "strictTemplates": true
+  }
+}

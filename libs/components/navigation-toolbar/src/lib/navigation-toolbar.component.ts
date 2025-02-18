@@ -18,16 +18,9 @@ export class NavigationToolbarComponent implements OnInit {
 
     navigateToHomePage() {
         this.selectedItem = 'Home';
-        console.log('navigateToHomePage');
     }
 
-    navigateToEmployeesPage() {
-        this.selectedItem = 'Employees';
-        console.log('navigateToEmployeesPage');
-    }
-
-    navigateToProjectsPage(){
-        this.selectedItem = 'Projects';
-        console.log('navigateToProjectsPage');
+    navigateToPoetsPage() {
+        this.selectedItem = 'Poets';
     }
 }

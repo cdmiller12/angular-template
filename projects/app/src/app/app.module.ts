@@ -9,11 +9,18 @@ import {CommonModule} from "@angular/common";
 import {MatAutocompleteModule} from "@angular/material/autocomplete";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import {NavigationToolbarModule} from "@components/navigation-toolbar";
+import { PoetsComponent } from './poets/poets.component';
+import { HttpClientModule } from '@angular/common/http';
+import { AuthorComponent } from './author/author.component';
+import { PoemComponent } from './poem/poem.component';
 
 
 @NgModule({
     declarations: [
         AppComponent,
+        PoetsComponent,
+        AuthorComponent,
+        PoemComponent
     ],
     imports: [
         BrowserModule,
@@ -21,6 +28,7 @@ import {NavigationToolbarModule} from "@components/navigation-toolbar";
         FormsModule,
         MatFormFieldModule,
         MatSelectModule,
+        HttpClientModule,
         CommonModule,
         MatAutocompleteModule,
         BrowserAnimationsModule,

@@ -273,9 +273,71 @@
                     }
                 }
             }
+        },
+        "poets": {
+            "projectType": "library",
+            "root": "libs/components/poets",
+            "sourceRoot": "libs/components/poets/src",
+            "prefix": "lib",
+            "architect": {
+                "build": {
+                    "builder": "@angular-devkit/build-angular:ng-packagr",
+                    "options": {
+                        "project": "libs/components/poets/ng-package.json"
+                    },
+                    "configurations": {
+                        "production": {
+                            "tsConfig": "libs/components/poets/tsconfig.lib.prod.json"
+                        },
+                        "development": {
+                            "tsConfig": "libs/components/poets/tsconfig.lib.json"
+                        }
+                    },
+                    "defaultConfiguration": "production"
+                },
+                "test": {
+                    "builder": "@angular-devkit/build-angular:karma",
+                    "options": {
+                        "main": "libs/components/poets/src/test.ts",
+                        "tsConfig": "libs/components/poets/tsconfig.spec.json",
+                        "karmaConfig": "libs/components/poets/karma.conf.js"
+                    }
+                }
+            }
+        },
+        "poetry-service": {
+            "projectType": "library",
+            "root": "libs/components/poetry-service",
+            "sourceRoot": "libs/components/poetry-service/src",
+            "prefix": "lib",
+            "architect": {
+                "build": {
+                    "builder": "@angular-devkit/build-angular:ng-packagr",
+                    "options": {
+                        "project": "libs/components/poetry-service/ng-package.json"
+                    },
+                    "configurations": {
+                        "production": {
+                            "tsConfig": "libs/components/poetry-service/tsconfig.lib.prod.json"
+                        },
+                        "development": {
+                            "tsConfig": "libs/components/poetry-service/tsconfig.lib.json"
+                        }
+                    },
+                    "defaultConfiguration": "production"
+                },
+                "test": {
+                    "builder": "@angular-devkit/build-angular:karma",
+                    "options": {
+                        "main": "libs/components/poetry-service/src/test.ts",
+                        "tsConfig": "libs/components/poetry-service/tsconfig.spec.json",
+                        "karmaConfig": "libs/components/poetry-service/karma.conf.js"
+                    }
+                }
+            }
         }
     },
-    "defaultProject": "shell",
+    "defaultProject": "app",
     "cli": {
       "analytics": false
     }

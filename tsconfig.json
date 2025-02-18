@@ -40,6 +40,14 @@
             "dist/navigation-toolbar/navigation-toolbar",
             "dist/navigation-toolbar"
           ],
+          "poetry-service": [
+            "dist/poetry-service/poetry-service",
+            "dist/poetry-service"
+          ],
+          "poets": [
+            "dist/poets/poets",
+            "dist/poets"
+          ],
           "text-field": [
             "dist/text-field/text-field",
             "dist/text-field"
